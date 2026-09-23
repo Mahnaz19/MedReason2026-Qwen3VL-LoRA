@@ -1,0 +1,22 @@
+{
+  "name": "MedReason sample validation submission",
+  "type": "Medical visual reasoning",
+  "answers": [
+    {
+      "case_id": "case_mcq_001",
+      "task_type": "mcq",
+      "answer": "A",
+      "reasoning_trace": "The sample submission selects option A for the placeholder case."
+    },
+    {
+      "case_id": "case_open_001",
+      "task_type": "open",
+      "reasoning_trace": "The sample submission identifies that the provided image is a placeholder rather than clinical evidence.",
+      "answer": "This is a placeholder image used for submission-format testing."
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0
+  }
+}

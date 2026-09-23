@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.log
+.git/
+.gitignore
+output/*
+!output/.gitkeep
+*.tar.gz
+*.zip
+.DS_Store

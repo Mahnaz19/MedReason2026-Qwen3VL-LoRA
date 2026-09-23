@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Local outputs
+output/
+outputs/
+**/output/
+**/outputs/
+*.log
+
+# Docker exports (local archives; do not push to GitHub)
+*.tar
+*.tar.gz
+docker-exports/
+
+# Challenge data, derived JSONL, training/eval outputs (download yourself)
+data/
+
+# Unpublished personal academic materials (paper, poster, slides, video)
+papers/
+
+# Local copy logs
+robocopy_*.log
+
+# Large model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# Local model checkpoints (keep only README stubs)
+MedReason-Docker-Example-Qwen25VL/models/**
+!MedReason-Docker-Example-Qwen25VL/models/README.md
+MedReason-Docker/models/**
+!MedReason-Docker/models/README.md
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+~$*
+*.swp
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,34 @@
+{
+  "cases": [
+    {
+      "case_id": "case_mcq_001",
+      "task_type": "mcq",
+      "image_path": "images/toy_chest.png",
+      "question": "Which option is most consistent with the image?",
+      "options": [
+        {
+          "label": "A",
+          "text": "No acute abnormality"
+        },
+        {
+          "label": "B",
+          "text": "Pleural effusion"
+        },
+        {
+          "label": "C",
+          "text": "Pneumothorax"
+        },
+        {
+          "label": "D",
+          "text": "Cardiomegaly"
+        }
+      ]
+    },
+    {
+      "case_id": "case_open_001",
+      "task_type": "open",
+      "image_path": "images/toy_chest.png",
+      "question": "Describe the most relevant visual evidence and provide a concise answer."
+    }
+  ]
+}

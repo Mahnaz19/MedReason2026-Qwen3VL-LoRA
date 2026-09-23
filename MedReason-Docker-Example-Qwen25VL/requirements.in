@@ -1,0 +1,6 @@
+accelerate
+transformers>=4.49.0
+torch
+Pillow
+qwen-vl-utils
+numpy

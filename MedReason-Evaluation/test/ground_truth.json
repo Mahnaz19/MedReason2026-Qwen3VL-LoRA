@@ -1,0 +1,13 @@
+{
+  "cases": [
+    {
+      "case_id": "case_mcq_001",
+      "task_type": "mcq",
+      "answer": "A"
+    },
+    {
+      "case_id": "case_open_001",
+      "task_type": "open"
+    }
+  ]
+}

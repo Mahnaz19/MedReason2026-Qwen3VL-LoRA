@@ -1,0 +1,24 @@
+{
+  "name": "MedReason Qwen2.5-VL baseline predictions",
+  "type": "Medical visual reasoning",
+  "answers": [
+    {
+      "case_id": "case_mcq_001",
+      "task_type": "mcq",
+      "answer": "A",
+      "reasoning_trace": "Smoke-test baseline: selected the first available option without model inference.",
+      "confidence": 0.0
+    },
+    {
+      "case_id": "case_open_001",
+      "task_type": "open",
+      "answer": "Smoke-test answer. Replace this mode with a real MedReason system for submission.",
+      "reasoning_trace": "Smoke-test baseline: no medical image inference was performed.",
+      "confidence": 0.0
+    }
+  ],
+  "version": {
+    "major": 1,
+    "minor": 0
+  }
+}

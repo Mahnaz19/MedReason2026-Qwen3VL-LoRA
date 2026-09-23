@@ -1,0 +1,10 @@
+{
+  "scores": [
+    {
+      "case_id": "case_open_001",
+      "gt_final": 2.0,
+      "va_answer": 3.0,
+      "rvf_trace": 2.0
+    }
+  ]
+}

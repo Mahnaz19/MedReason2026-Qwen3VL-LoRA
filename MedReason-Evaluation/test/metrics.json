@@ -1,0 +1,27 @@
+{
+  "metrics": {
+    "MCQ Accuracy": 1.0,
+    "Open-ended GT": 2.0,
+    "Open-ended VA": 3.0
+  },
+  "counts": {
+    "num_cases": 2,
+    "num_mcq": 1,
+    "num_open": 1
+  },
+  "per_case": [
+    {
+      "case_id": "case_mcq_001",
+      "task_type": "mcq",
+      "mcq_correct": 1.0
+    },
+    {
+      "case_id": "case_open_001",
+      "task_type": "open",
+      "GT_final": 2.0,
+      "VA_answer": 3.0,
+      "RVF_trace": 2.0,
+      "VA_final": 3.0
+    }
+  ]
+}

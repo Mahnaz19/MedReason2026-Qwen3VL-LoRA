@@ -1,0 +1,30 @@
+{
+  "cases": [
+    {
+      "case_id": "case_mcq_001",
+      "task_type": "mcq",
+      "question": "Which option best describes the placeholder image?",
+      "image_path": "images/case_mcq_001.png",
+      "options": [
+        {
+          "label": "A",
+          "text": "A synthetic placeholder image"
+        },
+        {
+          "label": "B",
+          "text": "A real CT scan"
+        },
+        {
+          "label": "C",
+          "text": "A histopathology slide"
+        }
+      ]
+    },
+    {
+      "case_id": "case_open_001",
+      "task_type": "open",
+      "question": "Provide a concise answer based on the placeholder image.",
+      "image_path": "images/case_open_001.png"
+    }
+  ]
+}
