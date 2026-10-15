@@ -1,5 +1,7 @@
 # MedReason 2026 — Two-Stage LoRA on Qwen3-VL
 
+This repository contains the implementation behind the accepted paper "Two-Stage LoRA Adaptation of Qwen3-VL for Image-Grounded Medical Visual Question Answering" (M. M. Salih, Z. Wang), accepted after blind peer review for the MICCAI 2026 Satellite Events proceedings, Springer Lecture Notes in Computer Science, DOI [10.1007/978-3-032-43333-6](https://doi.org/10.1007/978-3-032-43333-6). It is the system submitted by Team Mahnaz (Team_17) to the MedReason 2026 Challenge, which ranked 1st on the official pre-evaluation leaderboard and 3rd of 15 ranked teams on MCQ accuracy in the final evaluation.
+
 **Team Mahnaz (Team_17)** · MICCAI 2026 MedReason Challenge
 
 This repository contains the **code** for our MedReason submission: a frozen [Qwen3-VL-32B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-32B-Instruct) backbone plus a **two-stage LoRA** adapter for image-grounded medical visual question answering (MCQ and open-ended).
@@ -8,8 +10,6 @@ This repository contains the **code** for our MedReason submission: a frozen [Qw
 > - Challenge train/validation images and labels (download from Synapse)  
 > - Base model weights (~65 GB) and LoRA adapters  
 > - Docker image exports (`.tar.gz`)  
-
-A methods paper describing this work will be published (Springer LNCS, MedReason / MICCAI 2026 workshop track).
 
 ---
 
